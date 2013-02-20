@@ -1,14 +1,14 @@
-GForth libraries documentation
+# GForth libraries documentation
 
 This documentations are memo about standard libraries of gforth version 0.7.0 .
 
-* author
+## author
 
 ytnobody <ytnobody atmark gmail dot com>
 
-* memo for general stuff
+## memo for general stuff
 
-** library path
+### library path
 
 Basis library-path is following.
 
