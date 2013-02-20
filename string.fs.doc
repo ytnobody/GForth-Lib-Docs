@@ -1,0 +1,15 @@
+\ document for string.fs
+
+include string.fs
+
+\ $split ( buffer size char )
+\ split a string ( buffer size ) with specified char.
+
+    s" Hello, world!" \ stack a string "Hello, world!"
+    char ,            \ stack a character ","
+    $split            \ split!!!!
+    .s cr             \ dump stack (for debugging)
+    type cr           \ output " world!"
+    type cr           \ output "Hello"
+
+bye
